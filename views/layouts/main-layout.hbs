@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ pageTitle }}</title>
+  <link rel="stylesheet" href="/css/main.css">
+  {{#if userCSS}}
+  <link rel="stylesheet" href="/css/user.css">
+  {{/if}}
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="main-nav">
+      <ul>
+        <li>
+          <a class="{{#if activeAddUser}}active{{/if}}" href="/">Add New User</a>
+        </li>
+        <li>
+          <a class="{{#if activeUsers }}active{{/if}}" href="/users">Users</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  {{{ body }}}
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "assignment-4-handlebars",
+  "version": "1.0.0",
+  "description": "Assignment 4 (Handlebars)",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Delilah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.2",
+    "nodemon": "^2.0.4"
+  }
+}
